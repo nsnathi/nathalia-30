@@ -1,0 +1,99 @@
+body {
+    background: #f8f3ea;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.envelope {
+    width: 300px;
+    max-width: 90%;
+    margin-top: 30px;
+}
+
+.invite {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 20px;
+}
+
+input {
+    display: block;
+    width: 300px;
+    max-width: 90%;
+    padding: 12px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    background: #d87a98;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+a {
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+    background: #7a8b57;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+
+.confirmation {
+    margin-top: 30px;
+}
+.location-card {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.location-card h3 {
+    margin-top: 0;
+    color: #d87a98;
+}
+
+.location-card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.maps-button {
+    display: inline-block;
+    margin-top: 15px;
+    background: #7a8b57;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.confirmation {
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.confirmation p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
