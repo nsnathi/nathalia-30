@@ -13,6 +13,22 @@ function confirmPresence() {
 
         return;
     }
+    
+ const formURL =
+        "https://docs.google.com/forms/d/e/1FAIpQLSdGefFMBsUrXHkI47km5UPjVHnXBCahc5In1j6GjWh2tMT5zw/formResponse";
+
+    const formData =
+        `entry.1914616731=${encodeURIComponent(name)}` +
+        `&entry.270909713=${encodeURIComponent(rg)}`;
+
+    fetch(formURL, {
+        method: "POST",
+        mode: "no-cors",
+        headers: {
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        body: formData
+    });
 
     const message =
 `Olá Nathália!
@@ -39,3 +55,4 @@ RG: ${rg}`;
         behavior: "smooth"
     });
 }
+
