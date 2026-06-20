@@ -19,18 +19,9 @@ function confirmPresence() {
 
 Confirmo minha presença no seu aniversário de 30 anos.
 
-Dados para a portaria
+Nome Completo: ${name}
 
-Nome Completo:
-${name}
-
-RG:
-${rg}
-
-Acompanhante (se houver)
-
-Nome:
-RG:`;
+RG: ${rg}`;
 
     const phone = "5519983740174";
 
