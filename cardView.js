@@ -15,12 +15,11 @@ function confirmPresence() {
     }
 
     const message =
-const message =
 `Olá Nathália!
 
 Confirmo minha presença no seu aniversário de 30 anos.
 
-📋 Dados para a portaria
+Dados para a portaria
 
 Nome Completo:
 ${name}
@@ -28,7 +27,7 @@ ${name}
 RG:
 ${rg}
 
-👥 Acompanhante (se houver)
+Acompanhante (se houver)
 
 Nome:
 RG:`;
