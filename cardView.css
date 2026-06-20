@@ -22,23 +22,25 @@ body {
     border-radius: 20px;
 }
 
+input {
+    display: block;
+    width: 300px;
+    max-width: 90%;
+    padding: 12px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
 button {
+    display: block;
+    margin: 20px auto;
     background: #d87a98;
     color: white;
     border: none;
     padding: 15px 25px;
     border-radius: 30px;
     cursor: pointer;
-    margin-top: 20px;
-}
-
-input {
-    width: 300px;
-    max-width: 90%;
-    padding: 12px;
-    margin: 10px;
-    border-radius: 10px;
-    border: 1px solid #ccc;
 }
 
 a {
